@@ -1,0 +1,17 @@
+@import "../../scss/variables.scss";
+
+.App {
+	background: linear-gradient(180deg, #615085 0%, $bgColor 100%);
+	width: 100%;
+	height: 100vh;
+
+	.title {
+		font-family: "SFProDisplay";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 30px;
+		line-height: 1.2;
+		text-align: center;
+		padding: 20px;
+	}
+}
