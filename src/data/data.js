@@ -1,5 +1,5 @@
-export const dataFilters = {
-	names: {
+export const data = {
+	filterNames: {
 		btnAll: "All",
 		btnActive: "Active",
 		btnCompleted: "Completed",
