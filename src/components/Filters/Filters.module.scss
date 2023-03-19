@@ -8,13 +8,17 @@
 		.btn {
 			width: 100px;
 			padding: 5px 0;
-			color: $whiteColor;
+			color: #dcdcdc;
 			background-color: $bgBtn;
 			box-shadow: 0px 4px 8px -1px rgba(0, 0, 0, 0.25);
 			border: none;
 			border-radius: 4px;
 			cursor: pointer;
 			outline: transparent;
+		}
+		.btn--active {
+			font-weight: 700;
+			color: $whiteColor;
 		}
 	}
 }

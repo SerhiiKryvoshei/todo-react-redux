@@ -4,16 +4,16 @@ import classnames from "classnames";
 
 import { removeTodo, toggleTodo } from "../../store/todos/todos-actions";
 
-// import { selectVisibleTodos } from "../../store/todos/todos-selectors";
-// import { selectActiveFilter } from "../store/filters/filters-selectors";
+import { selectVisibleTodos } from "../../store/todos/todos-selectors";
+import { selectActiveFilter } from "../../store/filters/filters-selectors";
 
 import styles from "./TodoList.module.scss";
 
 const TodoList = () => {
 	const dispatch = useDispatch();
-	// const activeFilter = useSelector(selectActiveFilter);
-	// const todos = useSelector((state) => selectVisibleTodos(state, activeFilter));
-	const todos = useSelector((state) => state.todos);
+	const activeFilter = useSelector(selectActiveFilter);
+	const todos = useSelector((state) => selectVisibleTodos(state, activeFilter));
+	// const todos = useSelector((state) => state.todos);
 
 	return (
 		<ul className={classnames(styles["list"])}>
