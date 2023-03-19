@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/todo-react-redux/static/css/main.d2f42fa6.css",
-    "main.js": "/todo-react-redux/static/js/main.ba484dee.js",
+    "main.css": "/todo-react-redux/static/css/main.48a6f79f.css",
+    "main.js": "/todo-react-redux/static/js/main.c169c3f0.js",
     "static/media/SFProDisplay-Semibold.woff": "/todo-react-redux/static/media/SFProDisplay-Semibold.340c3a1a6dddb0b99476.woff",
     "static/media/SFProDisplay-Medium.woff": "/todo-react-redux/static/media/SFProDisplay-Medium.7274e74c05adf47dbcd9.woff",
     "static/media/SFProDisplay-Bold.woff": "/todo-react-redux/static/media/SFProDisplay-Bold.5b08afd6b167d7ec48ce.woff",
@@ -14,11 +14,11 @@
     "index.html": "/todo-react-redux/index.html",
     "static/media/add-todo.svg": "/todo-react-redux/static/media/add-todo.13632e8cc3044e7a78ee.svg",
     "static/media/toggle-todo.svg": "/todo-react-redux/static/media/toggle-todo.9fce5df3312959449065.svg",
-    "main.d2f42fa6.css.map": "/todo-react-redux/static/css/main.d2f42fa6.css.map",
-    "main.ba484dee.js.map": "/todo-react-redux/static/js/main.ba484dee.js.map"
+    "main.48a6f79f.css.map": "/todo-react-redux/static/css/main.48a6f79f.css.map",
+    "main.c169c3f0.js.map": "/todo-react-redux/static/js/main.c169c3f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2f42fa6.css",
-    "static/js/main.ba484dee.js"
+    "static/css/main.48a6f79f.css",
+    "static/js/main.c169c3f0.js"
   ]
 }
