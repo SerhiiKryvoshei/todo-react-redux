@@ -22,6 +22,7 @@
 	border-radius: 20px;
 	padding: 0 10px;
 	margin-right: 10px;
+	outline: transparent;
 	&::placeholder {
 		color: #d8d8d8;
 	}
@@ -30,7 +31,7 @@
 .btn {
 	width: 42px;
 	height: 42px;
-	background-color: #b648ea;
+	background-color: $bgBtn;
 	border: none;
 	border-radius: 50%;
 	background-image: url("../../assets/images/add-todo.svg");
@@ -38,4 +39,5 @@
 	background-position: center;
 	// background-size: cover;
 	cursor: pointer;
+	outline: transparent;
 }
