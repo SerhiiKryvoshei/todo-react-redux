@@ -1,3 +1,4 @@
+import { nanoid } from "nanoid";
 import { TOGGLE_TODO, ADD_TODO, REMOVE_TODO } from "./todos-const";
 
 export const todos = (state = [], action) => {
@@ -6,7 +7,7 @@ export const todos = (state = [], action) => {
 			return [
 				...state,
 				{
-					id: Date.now(),
+					id: nanoid(),
 					title: action.title,
 					completed: false,
 				},
